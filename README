@@ -1,0 +1,3 @@
+Standalone ruby module to parse HTTP Request and Response seperated only by a blank space.
+
+V-0.1: Extract only headers.
