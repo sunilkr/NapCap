@@ -3,7 +3,8 @@
 T_MARK = '================================================================================'
 HTML_END_TAG = '</html>'
 DEBUG = -1
-module HttpParse
+
+module NapCap
 
 class HTTPParser
    attr :resp_end_marker 
