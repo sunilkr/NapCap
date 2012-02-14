@@ -2,7 +2,7 @@
 
 require 'http_parser'
 
-parser = HttpParse::HTTPParser.new
+parser = NapCap::HTTPParser.new
 traffic = File.new("TestTrafficSample2.txt",'r').read
 parsed,invalid = parser.parse_traffic(traffic)
 print "Parsed Messages: #{parsed.size}\n"
