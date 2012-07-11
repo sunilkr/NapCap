@@ -1,5 +1,10 @@
 #!/usr/bin/ruby
 
+=begin
+  @author: Sunil Kumar
+  @email: badboy16a@gmail.com
+=end
+
 T_MARK = '================================================================================'
 HTML_END_TAG = '</html>'
 DEBUG = -1
